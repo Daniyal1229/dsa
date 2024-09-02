@@ -23,10 +23,6 @@ Output: [true,false,true]
 
 
 
-
-
-
-
 var kidsWithCandies = function(candies, extraCandies) {
     let maxCandy = Math.max(...candies);
     return candies.map((candy) => {
